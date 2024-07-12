@@ -1,0 +1,26 @@
+total 184
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   348 Jul  7 11:08 conditionals.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   313 Jul  7 12:52 condoperators.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   258 Jul  7 16:27 docontinue.sh
+-rw-r--r--  1 srinivas.kadiyala  staff     0 Jul 12 11:07 file.out
+-rw-r--r--  1 srinivas.kadiyala  staff    45 Jul 12 11:07 fileerr.txt
+-rw-r--r--  1 srinivas.kadiyala  staff   321 Jul 12 11:07 fileout.txt
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   189 Jul  7 16:24 fordobreak.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   520 Jul  5 08:04 hello.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   184 Jul  7 10:59 helloworld.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   345 Jul  7 13:00 loops.sh
+-rw-r--r--@ 1 srinivas.kadiyala  staff  1175 Jul  9 09:47 myout.txt
+-rw-r--r--@ 1 srinivas.kadiyala  staff  2082 Jul  9 09:39 myoutput.txt
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   602 Jul  8 21:44 numbers_arithmetics.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   356 Jul  5 15:27 readarrays.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   568 Jul  5 08:56 readinput.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   229 Jul 10 09:44 redirection.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff    77 Jul 10 14:50 stdfile.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   576 Jul 10 14:37 stdio.sh
+-rwxr-xr-x  1 srinivas.kadiyala  staff   469 Jul 12 11:07 stdout.sh
+-rwxr-xr-x  1 srinivas.kadiyala  staff    45 Jul 11 18:51 stdout_single.sh
+-rwxr-xr-x  1 srinivas.kadiyala  staff   247 Jul 11 18:10 stdreadvar.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   312 Jul  8 21:16 stringprocessing.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff    89 Jul  7 13:32 untilloop.sh
+-rwxr-xr-x@ 1 srinivas.kadiyala  staff   262 Jul  7 13:09 whileloop.sh
+stdout_single.sh: line 8: lsl: command not found

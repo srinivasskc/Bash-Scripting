@@ -1,0 +1,1 @@
+./stdout.sh: line 24: lsl: command not found
