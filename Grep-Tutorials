@@ -1,0 +1,82 @@
+Created a directory: grep_tutorial
+
+Navigated to directory: cat grep_tutorial
+
+Commands:
+1.  cat /etc/ssh/sshd_config
+# This will print system-wide configuration file
+
+2. cat /etc/ssh/sshd_config | wc -l
+# This will print words configuration
+
+3. cat /etc/ssh/sshd_config | grep Port
+# Note grep is case sensitive
+# This will print the lines where Port word is there.
+
+4. cat /etc/ssh/sshd_config | grep -v Port
+# Note grep is case sensitive
+# This will print the lines where Port word is not there.
+
+5. grep Port /etc/ssh/sshd_config 
+# Other ways
+# This will print the lines where Port word is there.
+
+6. grep -v Port /etc/ssh/sshd_config 
+# Other ways
+# This will print the lines where Port word is not there.
+
+7. cat sample-1.txt
+# Downloaded the sample text file. 
+# Reading the file.
+
+7. cat sample-1.txt
+# Downloaded the sample text file. 
+# Reading the file.
+
+8. grep enim sample-1.txt
+# Finding the word from text file
+
+9. grep -v enim sample-1.txt
+# excluding the word from text file and printing the rest.
+
+10. grep -n enim sample-1.txt
+# Printing the line numbers where enim is there in the sample file.
+
+11. grep -c enim sample-1.txt
+# Print number of times the enim word appeared in sample-1.txt file.
+
+12. grep -r while ShellScripting/
+# Recursively finding the word "while" inside the ShellScripting Folder.
+
+#
+ShellScripting//file.out:-rwxr-xr-x@ 1 srinivas.kadiyala  staff   262 Jul  7 13:09 whileloop.sh
+ShellScripting//stdfile.sh:while read line
+ShellScripting//fileout.txt:whileloop.sh
+ShellScripting//whileloop.sh:# while loop from 0 to 10 and increment by 1
+ShellScripting//whileloop.sh:echo "while loop"
+ShellScripting//whileloop.sh:while [ $i -le 10 ]
+ShellScripting//whileloop.sh:# while true loop - this prints infinite loop
+ShellScripting//whileloop.sh:echo "while true loop"
+ShellScripting//whileloop.sh:while [ true ]
+ShellScripting//myoutput.txt:-rwxr-xr-x   1 srinivas.kadiyala  staff      262 Jul  7 13:09 whileloop.sh
+ShellScripting//myout.txt:-rwxr-xr-x  1 srinivas.kadiyala  staff   262 Jul  7 13:09 whileloop.sh
+#
+
+
+13. grep -ri while ShellScripting/
+# Recursively finding the word from the folder with "r" and ignoring the case sensitive with "i"
+
+#
+grep -ri while ShellScripting/
+ShellScripting//file.out:-rwxr-xr-x@ 1 srinivas.kadiyala  staff   262 Jul  7 13:09 whileloop.sh
+ShellScripting//stdfile.sh:while read line
+ShellScripting//fileout.txt:whileloop.sh
+ShellScripting//whileloop.sh:# while loop from 0 to 10 and increment by 1
+ShellScripting//whileloop.sh:echo "while loop"
+ShellScripting//whileloop.sh:while [ $i -le 10 ]
+ShellScripting//whileloop.sh:# while true loop - this prints infinite loop
+ShellScripting//whileloop.sh:echo "while true loop"
+ShellScripting//whileloop.sh:while [ true ]
+ShellScripting//myoutput.txt:-rwxr-xr-x   1 srinivas.kadiyala  staff      262 Jul  7 13:09 whileloop.sh
+ShellScripting//myout.txt:-rwxr-xr-x  1 srinivas.kadiyala  staff   262 Jul  7 13:09 whileloop.sh
+#
