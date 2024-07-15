@@ -1,0 +1,37 @@
+declare -p 
+# this command lists all the variables currently present on the system
+
+declare -p | grep myname
+# check if variable myname is declared or not.
+# if its not declared, lets declare it.
+
+declare myname
+# declaring variable myname
+
+declare -p | grep myname
+# checking again 
+Output:  
+_=myname
+myname=
+
+# giving value to myname variable
+declare myname=user
+
+declare -p | grep myname
+_=myname=user
+myname=user
+
+# declare readonly variable
+declare -r pwdfile=/etc/passwd
+
+declare -p | grep pwdfile
+_=pwdfile=/etc/passwd
+pwdfile=/etc/passwd
+
+# Reading the variable.
+echo $pwdfile
+/etc/passwd
+
+# trying to change the read-only variable.
+pwdfile=hello.txt
+-bash: pwdfile: readonly variable
