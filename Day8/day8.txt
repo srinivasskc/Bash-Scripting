@@ -1,0 +1,6 @@
+Date: 15th Jul 2024
+
+Topics:
+Declare Statements
+Arrays
+  
